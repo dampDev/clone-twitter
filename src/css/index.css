@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+.header {
+    margin: 20px;
+    
+}
+
+.header--icon {
+    color: var(--brand-color);
+    font-size: 3rem;
+}
+
+.main-login {
+    width: 100%;
+    height: auto;
+}
+
+.login-container {
+    width: 95%;
+}
+
+.login-title-container {
+    font-size: 3rem;
+}
+
+.login-title-container h2 {
+    font-size: 2rem;
+}

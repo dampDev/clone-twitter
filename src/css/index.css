@@ -8,22 +8,54 @@ html{
 
 .header--icon {
     color: var(--brand-color);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .main-login {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     height: auto;
 }
 
 .login-container {
-    width: 95%;
+    width: 100%;
 }
 
 .login-title-container {
+    padding-top: 20px;
     font-size: 3rem;
 }
 
 .login-title-container h2 {
-    font-size: 2rem;
+    padding-top: 50px;
+    font-size: 3rem;
+}
+
+.login-button-container {
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.login-button--button__white {
+height: 40px;
+font-size: 1.4rem;
+width: 100%;
+margin-bottom: 10px;
+justify-self: center;
+border-radius: 20px;
+background-color: #ffffff;
+border: 1px solid #dadce0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-button--button__white span{
+    padding-right: 10px;
 }

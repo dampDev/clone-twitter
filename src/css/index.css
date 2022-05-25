@@ -20,7 +20,7 @@ html{
 }
 
 .login-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -78,6 +78,15 @@ align-items: center;
     line-height: 20px;
 }
 
+.login-button-container p {
+    font-size: 1.2rem;
+}
+
+.login-button-container p a {
+    color: #1d9bf0;
+    cursor: pointer;
+}
+
 .Sing-in--container{
     padding-top: 50px;
 }
@@ -113,4 +122,42 @@ align-items: center;
     font-size: 30rem;
     color: #ffffff;
     
+}
+footer {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer ul li {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: 5px;
+    padding-right: 10px;
+    color: #536471;
+    cursor: pointer;
+    
+}
+
+@media (min-width: 600px) {
+    .main-login {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        
+    }
+    .twitter-background {
+        grid-row: 1 / 4;
+        height: auto;
+        margin-top: 0;
+    }
 }

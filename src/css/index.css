@@ -112,7 +112,9 @@ h3 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
 }
@@ -148,10 +150,13 @@ footer ul li {
 }
 
 @media (min-width: 768px) {
+    
     .main-login {
+        
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: auto;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: auto;
+        
         
     }
     .login-button-container{
@@ -159,8 +164,16 @@ footer ul li {
         margin: 0;
     }
     .twitter-background {
-        grid-row: 1 / 4;
+        grid-row: 1 / 2; 
         height: auto;
         margin-top: 0;
     }
+    .twitter-background span {
+        font-size: 40rem;
+        
+        
+    }
+    
+    
+    
 }

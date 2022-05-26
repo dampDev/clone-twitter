@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 .header {
-    margin: 20px;
+    margin-top: 20px;
     
 }
 
@@ -37,11 +37,13 @@ html{
 .login-button-container {
     padding-top: 20px;
     width: 100%;
+   
     margin: 0 auto;
     height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 
 }
 
@@ -87,11 +89,8 @@ align-items: center;
     cursor: pointer;
 }
 
-.Sing-in--container{
-    padding-top: 50px;
-}
-
-.Sing-in--container h3 {
+h3 {
+    margin-top: 50px;
     font-size: 1.8rem;
     padding-bottom: 20px;
 }
@@ -148,12 +147,16 @@ footer ul li {
     
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     .main-login {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: auto;
         
+    }
+    .login-button-container{
+        max-width: 400px;
+        margin: 0;
     }
     .twitter-background {
         grid-row: 1 / 4;
